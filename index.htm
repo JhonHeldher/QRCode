@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32,32" href="./images/favicon-32x32.png"/>
+  <title>QR code</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+    * { font-family: "Outfit", sans-serif;  }
+    
+    .align-center { display: flex;  justify-content: center;  align-items: center;  } 
+    body {  min-height: 95vh; min-width: 95%; background-color: hsl(212, 45%, 89%); }
+    .container {
+      width: 18rem;
+      flex-direction: column;
+      margin-top: 1.2rem;
+      padding: 14px;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 16px;
+      box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+    }
+    img { width: 100%;  border-radius: 16px;  }
+    .infos {  flex-direction: column; }
+    h1,
+    p { display: block; text-align: center; }
+    h1 {
+      font-weight: 700;
+      color: hsl(218, 44%, 22%);
+      font-size: 1.4rem;
+      margin-bottom: -12px;
+    }
+    p {
+      color: hsl(220, 15%, 55%);
+      font-weight: 400;
+      padding: 13px;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body class="align-center">
+  <main class="container align-center">
+    <img src="./images/image-qr-code.png" alt="Qr-code" />
+    <div class="align-center infos">
+      <h1>Improve your front-end skills by building projects</h1>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </main>
+</body>
+</html>
